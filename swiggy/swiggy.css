@@ -1,0 +1,422 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 1500px;
+    background-color: aqua;
+}
+.Section-1{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 540px;
+}
+.Leftbody-1{
+    background-color:white;
+    width:55.5%;
+    height: 530px;
+}
+.Rightbody-1{
+    display: flex;
+    object-fit: contain;
+    background-image: url(https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Lunch1_vlksgq);
+    width: 44.5%;
+    height: 540px;
+    
+}
+.img1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Lb-top{
+    background-color: white;
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;  
+
+}
+.logo{ 
+    display: flex;
+    object-fit: cover;
+    background-color: white;
+    width: 200px;
+    height: 58px;
+    padding-left: 40px; 
+    
+   
+}
+.loginsignup{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: white;
+    width: 80%;
+    margin-right: 60px;  
+    margin-left: 70px; 
+}
+
+
+
+#login-btn{
+    border: none;
+    background-color: #fff;
+    color: black;
+    font-weight:bolder;
+    font-size: 15px;
+    width: 110px; 
+    height: 42px;  
+}
+#signup-btn{
+    border: none;
+    background-color:black;
+    color:white;
+    font-weight: bolder; 
+    font-size: 15px; 
+    width: 110px; 
+    height: 42px; 
+}
+
+.Lb-bottom{
+    background-color:white;
+    width: 100%;
+    height: 330px;   
+    margin-right: 80px;
+}
+
+.t1{
+    background-color:white;
+    margin-left: 75px;
+    
+}
+.hungry{
+    font-size:40px;
+    font-weight: 600;
+    color:rgb(40, 44, 63);
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    letter-spacing:-0.4px;
+}
+.order{
+    color: rgb(104, 107, 120);
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    margin-top: -20px;
+
+}
+.searchblock{
+    display: flex;
+    align-items: center;
+    background-color:white;
+    border-width: 100px;
+    border: 1px solid;
+    height: 50px;
+    width: 590px;
+    margin-left: 75px;   
+    margin-right: 100px;
+}
+#s-box{
+    font-family:ProximaNova,arial;
+    color: rgb(40, 44, 63);
+    font-weight: 300;
+    margin-left: 20px;
+    border: none;
+    width: 320px;
+    height: 40px;
+}
+#locate-me{
+    border: none;
+    background-color:white;
+    color:black;
+    font-family: ProximaNova, arial ;
+    font-weight: 200px; 
+    font-size: 14px; 
+    width: 110px; 
+    height: 50px; 
+}
+#locate-me:hover{
+cursor:pointer;
+background-color: lightgrey;
+}
+
+#find-food{
+   
+    border: none;
+    background-color: rgb(252, 128, 25);
+    color:white;
+    font-weight: bolder; 
+    font-size: 15px; 
+    width: 140px; 
+    height: 50px; 
+}
+
+.popular{
+    font-family: ProximaNova, arial;
+    color: rgb(169,171,178);
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+}
+.t3{
+    background-color: white;
+    margin-left: 75px;
+}
+.black{
+     background-color: rgba(0, 0, 0, 0); 
+    border: none;
+    color:    rgb(40, 44, 63);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+    font: bolder;
+    
+}
+
+.grey{
+    color:rgb(104, 107, 120);
+    border:none;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: ProximaNova, arial ;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.3px; 
+}
+.Section-2{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 300px;
+}
+
+.pic1{
+    display: flex;
+    flex-direction: column;
+    background-color:#2b1e16;
+    width: 33.5%;
+    height: 400px;
+    object-fit: cover;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+
+.pc1{
+    display: flex;
+    
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    justify-content: center;
+    
+    
+}
+.pic-1{
+    object-fit: contain;
+}
+
+.txt1{
+    color: white;
+    width: 278px;
+    font-size: 15px;
+    height: 150px;
+    text-align: center;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    
+
+}
+
+#no-min{
+    font-size:20px ;
+    font-weight: 600;
+    width:200px ;
+    height: 100px;
+}
+
+.part1{
+    background-color: blueviolet;
+    width: 40%;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.part2{
+    background-color:rgb(43, 55, 226);
+    width: 60%;
+    height: 700px;
+}
+
+ .subsec{
+    background-color: coral;
+    width: 78%;
+    
+    height:150px;
+
+ } 
+ .subsec-item{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+ }
+ .subsec-item-box{
+    width: 45%;
+    height: 57px;
+    justify-content: center;
+    display: flex;
+ }
+ #resturants{
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    width: 300px;
+    line-height: 1;
+    letter-spacing: -.45px;
+ }
+
+ .section-3 {
+    width: 100%;
+    height: 500px;
+}
+
+.left-2 {
+    background-color: white;
+    width: 40%;
+    height: 100%;
+
+    float: left;
+}
+
+.right-2 {
+    background-color: white;
+    float: left;
+    width: 60%;
+    height: 100%;
+
+}
+
+.text-one {
+    width: 250px;
+    height: 70px;
+    margin-top: 160px;
+    margin-left: 100px;
+    background-color: white;
+}
+
+.text-two {
+    width: 380px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 100px;
+    background-color: white;
+}
+
+#title {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+#sub-title {
+    font-size: 18px;
+    color: gray;
+    font-weight: bold;
+    font-family:ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+.store-logo {
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+#phone1 {
+    float: left;
+    margin-left: 70px;
+}
+
+.ph1 {
+    float: left;
+    width: 400px;
+    height: 100%;
+    background-color: white;
+    margin-top: 100px;
+}
+
+.ph2 {
+    margin-top: 100px;
+    float: left;
+    width: 400px;
+    height: 80%;
+    background-color: white;
+}
+
+.section-4 {
+    width: 100%;
+    height: 120px;
+}
+
+#final-img {
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+#credit {
+    font-size: 20px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 180px;
+}
+
+.f-logo {
+    height: 120px;
+    width: 30%;
+    background-color: black;
+    float: left;
+}
+
+.f-credit {
+    height: 120px;
+    width: 30%;
+    float: left;
+    background-color: black;
+}
+
+.f-icons {
+    height: 120px;
+    width: 40%;
+    float: left;
+    background-color: black;
+}
+
+#insta {
+    margin-left: 300px;
+    margin-top: 50px;
+}
+#insta:hover{
+    cursor: pointer;
+}
+#facebook:hover{
+    cursor: pointer;
+}
+#twitter:hover{
+    cursor: pointer;
+}
+#pinterest:hover{
+    cursor: pointer;
+}
+#ios:hover{
+    cursor: pointer;
+}
+#google:hover{
+    cursor: pointer;
+}
+
+
+
+
